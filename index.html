@@ -16,6 +16,24 @@
 
 <body>
  <header class="header">
+  <!-- ハンバーガーメニュー -->
+  <button id="js-hamburger" class="hamburger"><span class="hamburger__line"></span></button>
+  <!-- メニュー -->
+  <nav id="js-globalnav" class="globalnav">
+   <ul class="globalnav__main">
+    <li class="globalnav__item"><a href="index.html">Top</a></li>
+    <li class="globalnav__item"><a href="novel.html">Novel</a></li>
+    <li class="globalnav__item _has-child"><a href="#">Character</a>
+     <ul class="globalnav__child">
+      <li><a href="character1.html">闇ヒガ</a></li>
+      <li><a href="character2.html">騎士団</a></li>
+      <li><a href="character3.html">エトセトラ</a></li>
+      <li><a href="character4.html">TRPG</a></li>
+     </ul>
+    </li>
+    <li class="globalnav__item"><a href="gallery.html">Gallery</a></li>
+   </ul>
+  </nav><!-- メニューここまで -->
  </header>
 
  <!-- メインコンテンツ -->
@@ -26,15 +44,130 @@
 
   <section id="information">
    <!-- インフォメーション -->
-   <h2 class="headingL">移転しました</h2>
+   <h2 class="headingL">Information</h2>
    <p class="bg-white">
-    イロバスfactoryは、https://irobako.karakasa.com/に移転しました！<br>
-    こちらのアドレスでもよろしくお願いします。<br>
-    <br>
-    <a href="https://irobako.karakasa.com/"><img src="https://irobako.karakasa.com/images/banner.png"></a>
+    このサイトは一次創作ちゃん達を展示している自己満足な趣味サイトです。<br>
+    小説へのリンクや創作ちゃんたちのイラストなどを展示しています。
    </p>
+   <!-- 更新履歴 -->
+   <section class="bg-white">
+    <h3 class="headingM">Update</h3>
+    <ul class="update">
+     <li class="update__item"><time>2023/10/29</time><span>ギャラリー更新</span></li>
+     <li class="update__item"><time>2023/09/17</time><span>バナー更新</span></li>
+     <li class="update__item"><time>2023/09/01</time><span>彼岸花と黄昏 4話更新</span></li>
+     <li class="update__item"><time>2023/08/22</time><span>サイト開設</span></li>
+    </ul><!-- 更新履歴ここまで -->
    </section>
   </section><!-- インフォメーションここまで -->
+
+  <!--トピック一覧
+  <section id="topic">
+   <h2 class="headingL">Topic</h2>
+   <ul class="topiclist">
+    <li class="topiclist__item bg-white"><a href="" target="_blank" class="grid"><img
+       src="http://placehold.jp/675x182.png?text=バナー" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+       consequat.</p>
+     </a></li>
+    <li class="topiclist__item bg-white"><a href="" target="_blank" class="grid"><img
+       src="http://placehold.jp/675x182.png?text=バナー" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+       consequat.</p>
+     </a></li>
+    <li class="topiclist__item bg-white"><a href="" target="_blank" class="grid"><img
+       src="http://placehold.jp/675x182.png?text=バナー" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+       consequat.</p>
+     </a></li>
+   </ul>
+  </section>
+  トピック一覧ここまで-->
+
+  <!-- アバウト -->
+  <section id="about">
+   <h2 class="headingL">About</h2>
+   <!-- このサイトについて -->
+   <section class="aboutsite bg-white">
+    <h3 class="headingM">About this site</h3>
+    <p>
+      <span class="marker">〇いろばこっ子ーズとは</span><br>
+      煎ろ函さんの創作ちゃんたちの総称です。<br>
+      <span class="marker">〇イロバスとは</span><br>
+      小説に出てくるメンバーのみの総称です。<br>
+      <br>
+      <strong>※サイト内の全てのコンテンツや画像の無断転載・加工・使用・イラスト生成AIへの学習利用等はいかなる場合でも禁止です。</strong></p>
+      <a href="http://hhp.x0.to/banner8/" target="_blank"><img src="images/kinshibanner_5_5.gif"></a><br>
+
+      <dl class="gridlist">
+     <dt class="gridlist__label">Site name</dt>
+     <dd class="gridlist__text">イロバスfactory</dd>
+     <dt class="gridlist__label">Master</dt>
+     <dd class="gridlist__text">煎ろ函</dd>
+     <dt class="gridlist__label">URL</dt>
+     <dd class="gridlist__text">https://irobako.karakasa.com</dd>
+     <dt class="gridlist__label">Bannar</dt>
+     <img src="images/banner.png" alt="banner">
+    </dl>
+   </section><!-- このサイトについてここまで -->
+   <section class="profile bg-white">
+    <!-- プロフィール -->
+    <h3 class="headingM">Profile</h3>
+    <div class="profile__inner grid">
+     <!-- 横並びに -->
+     <!-- プロフィール画像 -->
+     <div class="profile__img"><img src="images/icooon.png" alt="icooon"></div>
+     <!-- プロフィール文章 -->
+     <div class="profile__text">
+      <p><strong>煎ろ函(いろばこ)</strong><br><br>日本生まれ日本育ち。4月8日が誕生日。空と海が好き。<br>
+      <a href="https://wavebox.me/wave/btvuufdfdpsoixls/" target=”_blank”>→Wavebox</a><br>
+      <a href="https://chocobox.me/iROBAKO_" target=”_blank”>→Chocobox</a></p>
+      <!-- SNSリスト -->
+      <ul class="snslist flex">
+       <li class="snslist__item twitter"><a href="https://twitter.com/iROBAKO_" target=”_blank”><i class="lab la-twitter"></i></a></li>
+      </ul><!-- SNSリストここまで -->
+     </div><!-- プロフィール文章ここまで -->
+    </div>
+   </section><!-- プロフィールここまで -->
+  </section>
+  <!-- アバウトここまで -->
+
+
+  <!-- リンク -->
+  <section id="link">
+   <h2 class="headingL">Link</h2>
+   <section class="bg-white">
+    <h3 class="headingM">Thanks</h3>
+    <ul class="linklist flex">
+     <li class="linklist__item"><a href="https://hiroec.com/" target=”_blank”>空蝉</a></li>
+     <li class="linklist__item"><a href="https://do.gt-gt.org/" target=”_blank”>do</a></li>
+    </ul>
+   </section>
+  </section>
+   <section class="bg-white">
+    <h3 class="headingM">Favorite</h3>
+    <ul class="linklist flex">
+     <li class="linklist__item"><a href="https://kirapipi4.pinoko.jp/"><img src="https://kirapipi4.pinoko.jp/img/banner.png" alt="rapipi room"></a></li>
+    </ul>
+   </section>
+  <!-- リンクここまで -->
+
+  <!-- コンタクト
+  <section id="contact">
+   <h2 class="headingL">Contact</h2>
+   <span class="label">準備中の為、現在は起動していません。</span>
+   <form action="" method="post" class="mailform">
+    <input id="name" type="text" name="Name" placeholder="お名前"><br>
+    <input id="mail" type="email" name="Mail" placeholder="メールアドレス"><br>
+    <input id="url" type="url" name="URL" placeholder="URL"><br>
+    <textarea id="message" name="Message" placeholder="メッセージ"></textarea><br>
+    <button class="btn">送信</button>
+   </form>
+  </section>
+  コンタクトここまで -->
 
  </main><!-- メインコンテンツここまで -->
 
